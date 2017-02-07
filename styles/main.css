@@ -1,0 +1,105 @@
+/*styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;	
+    margin: 0 auto;
+    background-color: #481610;
+}
+a:focus, a:hover {
+	color: yellow !important;
+}
+/*styles for the header */
+header img {  
+	min-width: 100%;
+	min-height: 282px;
+	display: block;
+}
+/*styles for the navigation menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: center;
+	background-color: #5A4229;
+	font-size: 150%;
+}
+#nav_menu ul li {
+	float: left;
+    width: 25%;  
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    background-color: #5A4229;
+    color: #3972C8;
+    font-weight: bold;
+	font-size: 160%
+}
+#nav_menu a.current {
+	color: yellow;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+	right: 26%;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/*styles for the main content */
+main {
+	clear: left;
+	min-height: 591px;
+}
+
+/*styles for the section */
+section {
+	margin: 0 auto;
+	padding: 2.5%  2.5% 20px 2.5%;  
+}
+section h2 {
+	text-align: center;
+	color: #6ADDFF;
+	font-size: 160%;
+	padding: 0 0 1em 0;
+}
+section p {
+	padding-top: 1em;
+	font-size: 130%;
+	padding-bottom: .5em;
+	font-weight: bold;
+	color: #6ADDFF;
+	text-align: center;
+}
+section img {
+	padding-top: 1em;
+	display: block;
+	margin: auto;
+}
+/*styles for the footer */
+footer {
+	background-color: #5A4229;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: #3972C8;
+	padding: 1em 0;
+}
+.slicknav_menu {
+	display: none;
+}
+
