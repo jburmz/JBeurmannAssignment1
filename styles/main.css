@@ -17,10 +17,14 @@ a:focus, a:hover {
 	color: yellow !important;
 }
 /*styles for the header */
-header img {  
-	min-width: 100%;
+/*changed header to be a div with a centered background image to avoid issues at different resolutions*/
+.banner{
 	min-height: 282px;
 	display: block;
+	background-image: url(../images/JStoneBanner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
 /*styles for the navigation menu */
 #nav_menu ul {
@@ -87,6 +91,35 @@ section img {
 	padding-top: 1em;
 	display: block;
 	margin: auto;
+}
+/*set the hero image using CSS*/
+.druid {
+	height: 345px;
+	width: 250px;
+	margin: auto;
+	background-image: url(../images/druid.png);
+	background-repeat: no-repeat;
+}
+.warrior {
+	height: 345px;
+	width: 250px;
+	margin: auto;
+	background-image: url(../images/warrior.png);
+	background-repeat: no-repeat;
+}
+.mage {
+	height: 345px;
+	width: 250px;
+	margin: auto;
+	background-image: url(../images/mage.png);
+	background-repeat: no-repeat;
+}
+.priest {
+	height: 345px;
+	width: 250px;
+	margin: auto;
+	background-image: url(../images/priest.png);
+	background-repeat: no-repeat;
 }
 /*styles for the footer */
 footer {
